@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build && drizzle-kit push",
+    "build": "vite build && drizzle-kit push --force",
     "preview": "vite preview",
     "prepare": "svelte-kit sync || echo ''",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -19,7 +19,7 @@
     "@biomejs/biome": "1.9.4",
     "@fontsource/fira-mono": "^5.0.0",
     "@neoconfetti/svelte": "^2.0.0",
-    "@sveltejs/adapter-vercel": "^5.5.2",
+    "@sveltejs/adapter-node": "^5.2.12",
     "@sveltejs/kit": "^2.16.0",
     "@sveltejs/vite-plugin-svelte": "^5.0.0",
     "@tailwindcss/forms": "^0.5.9",
