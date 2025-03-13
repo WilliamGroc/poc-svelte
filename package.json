@@ -16,7 +16,7 @@
     "lint": "biome check"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
+    "@biomejs/biome": "^1.9.4",
     "@fontsource/fira-mono": "^5.0.0",
     "@neoconfetti/svelte": "^2.0.0",
     "@sveltejs/adapter-node": "^5.2.12",
